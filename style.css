@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    margin-top: 2em;
+}
+.logo img{
+    width:10%;
+}
+#flexbox{
+    display: flex;
+    margin-top: 1.5em;
+    width: 100%;
+    justify-content: center;
+}
+#form{
+    padding-left: 2em;
+    width:35%;
+    height: 90vh;
+    border:1px solid black;
+    border-radius: 0.3em;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+}
+input{
+    margin-bottom: 1.5em;
+    width: 80%;
+    height: 2em;
+    font-size: 1.1em;
+}
+input[type="password"]{
+    margin-bottom: 1em;
+}
+.caution{
+    font-size: 0.8em;
+    color:red;
+    margin-bottom: 2em;
+}
+input[type="submit"]
+{
+    background-color: rgb(216, 216, 52);
+    border-radius: 1em;
+    margin-left: 2em;
+    border: 0;
+    color:black;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    width: 65%;
+    text-align: left;
+}
+.blue{
+    color:blue;
+}
+hr{
+    margin-top: 2em;
+    margin-right: 2em;
+}
